@@ -2,40 +2,6 @@
 
 This project is a Spring Boot application for inventory management. It includes features for managing suppliers, stocks, orders, and order items. The application also incorporates security measures to restrict unauthorized access.
 
-## Table of Contents
-
-1. [Getting Started](#getting-started)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Project Structure](#project-structure)
-5. [Security](#security)
-6. [Exception Handling](#exception-handling)
-7. [Entity Relationship Diagram](#entity-relational-diagram)
-
-## Getting Started
-
-### Prerequisites
-
-- Java 21 or higher
-- Maven
-- PostgreSQL
-
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/Kudoo39/integrify-java-inventory-service
-    cd integrify-java-inventory-service
-    ```
-
-2. Configure the `application.properties` file in the `src/main/resources` directory with your database settings.
-
-3. Run the application (ensure your database is running before starting the application)
-
-## Features
-
-The following endpoints are available in the application:
-
 ### Orders
 
 - `POST /orders` - Create a new order
